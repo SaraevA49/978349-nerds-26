@@ -4,6 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic"
+    rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/modal.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -13,7 +19,7 @@
       <img src="img/nerds-logo.svg" alt="">
     </a>
     <nav>
-      <ul>
+      <ul class="site-navigation">
         <li><a href="inner.html">Студия</a></li>
         <li><a href="inner.html">Клиенты</a></li>
         <li><a href="inner.html">Магазин</a></li>
@@ -25,7 +31,7 @@
   </header>
   <!-- Заглушка -->
   <section>
-    <ul>
+    <ul class="user-navigation">
       <li>
         <span>
           <button class="button">
@@ -96,7 +102,7 @@
   </section>
   <hr />
   <section>
-    <ul>
+    <ul class="user-navigation">
       <li>
         <h2>
           <span>
@@ -130,7 +136,7 @@
     <img src="img/nerds-illustration.jpg" width="300" height="146" alt="">
 
 
-    <ul>
+    <ul class="user-navigation">
       <li>
         <p> с 2004 года Любим точность во всем:</p>
 
@@ -179,7 +185,7 @@
   <hr />
   <br>
   <nav>
-    <ul>
+    <ul class="user-navigation">
       <li><img src="img/logo-1.png" alt="картинка расположена в картинке" /></li>
       <li><img src="img/logo-2.png" alt="" /></li>
       <li><img src="img/logo-3.png" alt="" /></li>
@@ -191,50 +197,55 @@
   <hr />
   <br>
   <footer>
+
+    <form action="textarea1.php" method="post">
+      <p><b>Напишите нам:</b></p>
+      <p><textarea rows="10" cols="45" name="text"></textarea></p>
+      <p><input type="submit" value="Отправить"></p>
+    </form>
     <section>
-      <span><img src="img/map.png" alt=""></span>
 
-      <div class="modal fade" id="enter">
+      <a class="btn" href="#example2">Напишите нам</a>
 
-        <div class="modal-footer">
-          <button type="button" class="btn btn-success" id="enter_sumbit">Напишите нам</button>
-        </div>
+
+      <div class="cssmodal dialog" id="example2">
+        <a href="#/" class="veil"></a>
+        <figure>
+          <h2>Название <a href="#/" class="smallclose" aria-label="Close Modal Box">×</a></h2>
+          Содержимое
+        </figure>
       </div>
+      <div>
+        <img src="img/map-marker.png" alt="">
+      </div>
+      <section>
+        <ul class="user-navigation">
+          <li>
+            <img src="img/Shape2copy3.png" alt="">
+          </li>
+          <li>
+            <img src="img/Shape2copy4.png" alt="">
+          </li>
+          <li>
+            <img src="img/Shape2copy5.png" alt="">
+          </li>
+        </ul>
+      </section>
+
+      <diV>
+
+        <h2>
+          <span>
+            Давайте дружить, это выгодно!
+          </span>
+        </h2>
+
+        <p>Скидка 10% для друзей из социальных сетей.
+        </p>
 
 
 
-
-      <span><img src="img/map-marker.png" alt=""></span>
-
-    </section>
-    <section>
-      <ul>
-        <li>
-          <img src="img/vk-icon.png" alt="">
-        </li>
-        <li>
-          <img src="img/Shape2copy4.png" alt="">
-        </li>
-        <li>
-          <img src="img/Shape2copy5.png" alt="">
-        </li>
-      </ul>
-    </section>
-
-    <diV>
-
-      <h2>
-        <span>
-          Давайте дружить, это выгодно!
-        </span>
-      </h2>
-
-      <p>Скидка 10% для друзей из социальных сетей.
-      </p>
-
-
-
-    </diV>
+      </diV>
   </footer>
 </body>
 

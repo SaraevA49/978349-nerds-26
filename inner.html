@@ -4,6 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
 </head>
 
 <body>
@@ -13,14 +18,12 @@
         </a>
 
         <nav>
-            <ul>
+            <ul class="site-navigation">
                 <li><a href="index.html">Студия</a></li>
                 <li><a href="index.html">Клиенты</a></li>
                 <li><a href="index.html">Магазин</a></li>
                 <li><a href="index.html">Контакты</a></li>
-                <li>
-                    <img src="img/cart-icon.png" alt="" />
-                </li>
+
                 <li><a href="#">Корзина</a></li>
             </ul>
         </nav>
@@ -34,7 +37,7 @@
 
 
 
-    <ul>
+    <ul class="user-navigation">
         <li>
             <h3>стоимость:</h3>
         </li>
@@ -159,46 +162,54 @@
     </section>
 
     <footer>
+        <form action="textarea1.php" method="post">
+            <p><b>Напишите нам:</b></p>
+            <p><textarea rows="10" cols="45" name="text"></textarea></p>
+            <p><input type="submit" value="Отправить"></p>
+        </form>
         <section>
-            <span><img src="img/map.png" alt=""></span>
 
-            <div>
-                <button class="button">
-                    напишите нам
-                </button>
+            <a class="btn" href="#example2">Напишите нам</a>
+
+
+            <div class="cssmodal dialog" id="example2">
+                <a href="#/" class="veil"></a>
+                <figure>
+                    <h2>Название <a href="#/" class="smallclose" aria-label="Close Modal Box">×</a></h2>
+                    Содержимое
+                </figure>
             </div>
+            <div>
+                <img src="img/map-marker.png" alt="">
+            </div>
+            <section>
+                <ul class="user-navigation">
+                    <li>
+                        <img src="img/Shape2copy3.png" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Shape2copy4.png" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Shape2copy5.png" alt="">
+                    </li>
+                </ul>
+            </section>
 
-            <span><img src="img/map-marker.png" alt=""></span>
+            <diV>
 
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <img src="img/Shape2copy3.png" alt="">
-                </li>
-                <li>
-                    <img src="img/Shape2copy4.png" alt="">
-                </li>
-                <li>
-                    <img src="img/Shape2copy5.png" alt="">
-                </li>
-            </ul>
-        </section>
+                <h2>
+                    <span>
+                        Давайте дружить, это выгодно!
+                    </span>
+                </h2>
 
-        <diV>
-
-            <h2>
-                <span>
-                    Давайте дружить, это выгодно!
-                </span>
-            </h2>
-
-
-            <p> Скидка 10% для друзей из социальных сетей.</p>
-
+                <p>Скидка 10% для друзей из социальных сетей.
+                </p>
 
 
-        </diV>
+
+            </diV>
     </footer>
 </body>
 
