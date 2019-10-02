@@ -133,6 +133,11 @@ body {
   padding: 0 10px;
 }
 
+.button {
+width: 160; 
+height: 50;
+}
+
 .main-header {
   margin-bottom: 75px;
 
@@ -171,7 +176,7 @@ body {
 
 .main-header-logo {
   order: 2;
-
+  align-items: left;
   width: 368px;
   height: 353px;
 }
@@ -201,10 +206,12 @@ body {
 }
 
 .site-navigation {
+  display: flex;
+  justify-content: space-between;
   width: 620px;
   margin: 0;
   padding: 0;
-
+  flex-direction: row;
   list-style: none;
 
   /* Временно для сетки */
@@ -212,6 +219,8 @@ body {
 }
 
 .user-navigation {
+  display: flex;
+  justify-content: space-between;
   width: 140px;
   margin: 0;
   padding: 0;
