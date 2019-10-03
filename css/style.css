@@ -25,9 +25,7 @@ body {
 .site-navigation a{
     color:#3f3f3f;; 
 }
-
   
-
 .btn{
 	display: inline-block;
     text-decoration: none;
@@ -37,80 +35,6 @@ body {
     background: #15C5FF;
     color: white;
     }
-/* Unopened CSS Modal */
-.cssmodal {
-    display: flex;
-    position: fixed;
-    left: 0;
-    top: -100%;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    -webkit-transition: top 0s .5s, opacity .5s 0s;
-    transition: top 0s .5s, opacity .5s 0s;
-}
-/* Opened CSS Modal */
-.cssmodal {
-    top: 0;
-    opacity: 1;
-    -webkit-transition: none;
-    transition: none;
-}
-/* CSS Modal content */
-.cssmodal figure {
-    width: 95%;
-    max-width: 600px;
-    position: relative;
-    padding: 1.5em;
-    opacity: 0;
-    background-color: white;
-    -webkit-transition: opacity .5s;
-    transition: opacity .5s;
-}
-/* Dialog modal style */
-.cssmodal.dialog figure {
-    background: white;
-    border-radius: 5px;
-    padding-top: 10px;
-}
-/* Dialog modal h2 style */
-.cssmodal.dialog figure h2 {
-    margin-top: 0;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #eee;
-}
-/* CSS Modal content when opened */
-.cssmodal:target figure {
-    opacity: 1;
-}
-/* style for small x link inside dialog modal */
-.cssmodal.dialog .smallclose {
-    text-decoration: none;
-    position: absolute;
-    right: 6px;
-    top: 0px;
-    font-size: 36px;
-}
-/* veil that covers page when CSS Modal is open */
-.cssmodal .veil {
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background-color: rgba(0,0,0,.7);
-    content: "";
-    cursor: default;
-    visibility: hidden;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-}
-/* veil style when CSS Modal is open */
-.cssmodal:target .veil {
-    visibility: visible;
-}
 
 /* ----- Сеточные стили ----- */
 html,
@@ -118,11 +42,9 @@ body {
   min-width: 1122px;
   min-height: 1150px;
 }
-
 .inner-page {
   /* Временно для сетки */
-  
-  background-size: 1200px auto;
+    background-size: 1200px auto;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -140,16 +62,12 @@ height: 50;
 
 .main-header {
   margin-bottom: 75px;
-
   /* Временно для сетки */
-  
-}
+  }
 
 .inner-page .main-header {
   margin-bottom: 50px;
-  
-  background-color: #000000;
-
+    background-color: #000000;
   /* Временно для сетки */
   min-height: 70px;
   background-color: transparent;
@@ -159,9 +77,7 @@ height: 50;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: transparent;
-
   /* Временно для сетки */
   min-height: 285px;
 }
@@ -169,7 +85,6 @@ height: 50;
 .inner-page .main-navigation {
   align-items: flex-start;
   flex-direction: row;
-
   /* Временно для сетки */
   min-height: 70px;
 }
@@ -183,8 +98,7 @@ height: 50;
 
 .inner-page .main-header-logo {
   order: 0;
-  
-  width: 111px;
+    width: 111px;
   height: 24px;
   padding: 23px 20px;
 }
@@ -194,7 +108,6 @@ height: 50;
   margin-bottom: 60px;
 
   background-color: #000000;
-
   /* Временно для сетки */
   min-height: 70px;
   background-color: transparent;
@@ -213,7 +126,6 @@ height: 50;
   padding: 0;
   flex-direction: row;
   list-style: none;
-
   /* Временно для сетки */
   min-height: 70px;
 }
@@ -221,8 +133,7 @@ height: 50;
 .user-navigation {
   display: flex;
   justify-content: space-between;
-  
-  margin: 0;
+    margin: 0;
   padding: 0;
   flex-wrap: wrap;
   list-style: none;
@@ -244,16 +155,13 @@ height: 50;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-
   list-style: none;
-
   /* Временно для сетки */
   min-height: 150px;
 }
 
 .feature-item {
   width: 300px;
-
   /* Временно для сетки */
   min-height: 150px;
 }
@@ -263,7 +171,6 @@ height: 50;
   justify-content: space-between;
   padding: 50px 80px;
   margin-bottom: 35px;
-
   /* Временно для сетки */
   background-image: none;
   background-color: transparent;
@@ -271,28 +178,24 @@ height: 50;
 
 .news {
   width: 380px;
-
   /* Временно для сетки */
   min-height: 315px;
 }
 
 .gallery {
   width: 300px;
-
   /* Временно для сетки */
   min-height: 315px;
 }
 
 .contacts {
   width: 380px;
-
   /* Временно для сетки */
   min-height: 295px;
 }
 
 .appointment {
   width: 300px;
-
   /* Временно для сетки */
   min-height: 320px;
 }
@@ -300,7 +203,6 @@ height: 50;
 .main-footer {
   padding: 60px 0;
   margin-top: 65px;
-
   /* Временно для сетки */
   background: none;
 }
@@ -313,14 +215,12 @@ height: 50;
   width: 330px;
   margin: 0;
   margin-right: 70px;
-
   /* Временно для сетки */
   min-height: 100px;
 }
 
 .footer-social {
   width: 145px;
-
   /* Временно для сетки */
   min-height: 100px;
 }
@@ -329,7 +229,6 @@ height: 50;
   width: 150px;
   margin: 0;
   margin-left: auto;
-
   /* Временно для сетки */
   min-height: 100px;
 }
@@ -342,8 +241,10 @@ height: 50;
 .card {
   width: 322px;
 height: 322px;
-  
-  background: ffffff; 
+    background: ffffff; 
+}
+.article {
+  width: 50%;
 }
 
 
