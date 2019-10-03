@@ -23,7 +23,7 @@ body {
 }
 
 .site-navigation a{
-    color:#fb565a;; 
+    color:#3f3f3f;; 
 }
 
   
@@ -142,7 +142,7 @@ height: 50;
   margin-bottom: 75px;
 
   /* Временно для сетки */
-  min-height: 285px;
+  
 }
 
 .inner-page .main-header {
@@ -221,10 +221,10 @@ height: 50;
 .user-navigation {
   display: flex;
   justify-content: space-between;
-  width: 140px;
+  
   margin: 0;
   padding: 0;
-
+  flex-wrap: wrap;
   list-style: none;
 
   /* Временно для сетки */
@@ -333,3 +333,20 @@ height: 50;
   /* Временно для сетки */
   min-height: 100px;
 }
+
+.page-wrappe {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 322px;
+height: 322px;
+  
+  background: ffffff; 
+}
+
+
+
+
+
