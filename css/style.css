@@ -62,15 +62,12 @@ height: 50;
 
 .main-header {
   margin-bottom: 75px;
-  /* Временно для сетки */
   }
 
 .inner-page .main-header {
   margin-bottom: 50px;
     background-color: #000000;
-  /* Временно для сетки */
-  min-height: 70px;
-  background-color: transparent;
+   background-color: transparent;
 }
 
 .main-navigation {
@@ -78,16 +75,13 @@ height: 50;
   flex-direction: column;
   align-items: center;
   background-color: transparent;
-  /* Временно для сетки */
-  min-height: 285px;
+ 
 }
 
 .inner-page .main-navigation {
   align-items: flex-start;
   flex-direction: row;
-  /* Временно для сетки */
-  min-height: 70px;
-}
+  }
 
 .main-header-logo {
   order: 2;
