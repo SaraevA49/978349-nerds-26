@@ -28,8 +28,10 @@ body {
     margin-right: 10px;
     border-radius: 5px;
     padding: 8px 10px;
-    background: #15C5FF;
+    /*background: #15C5FF;*/
     color: white;
+	 width: 155px;
+	 height: 50;
     }
 
 /* ----- Сеточные стили ----- */
@@ -62,6 +64,7 @@ body {
 .main-header {
   margin-bottom: 75px;
   background-color: #eeeeee;
+  height: 353px;
   }
 
 .inner-page .main-header {
@@ -203,8 +206,9 @@ body {
 }
 
 .main-footer {
-  padding: 60px 0;
-  margin-top: 65px;
+	  display: flex;
+  padding: 5px 0;
+  margin-top: 5px;
   /* Временно для сетки */
   background: none;
 }
@@ -249,7 +253,7 @@ height: 322px;
   width: 50%;
 }
 
-.button1 {
+.btn.button1 {
   display: block;
   /*width: 160px;*/
   padding: 13px 0;
@@ -262,7 +266,7 @@ height: 322px;
   background-color: #fb565a;
   border-radius: 3px;
   border: none;
-}
+} 
 
 .button1:hover,
 .button1:focus {
@@ -275,7 +279,7 @@ height: 322px;
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
-.button2 {
+.btn.button2 {
   display: block;
   /*width: 160px;*/
   padding: 13px 0;
@@ -301,7 +305,7 @@ height: 322px;
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
-.button3 {
+.btn.button3 {
   display: block;
   /*width: 160px;*/
   padding: 13px 0;
@@ -314,7 +318,7 @@ height: 322px;
   background-color: #efc84a;
   border-radius: 3px;
   border: none;
-}
+}*/
 
 .button3:hover,
 .button3:focus {
@@ -390,7 +394,6 @@ a {
   background-repeat: no-repeat;
   background-position: 100% 20px;
 }
-
 
 .slider-item h3 {
   max-width: 600px;
@@ -543,9 +546,13 @@ a {
 
 }
 
+.footer {
+	display: flex;
+}
 
-
-
+.wrapper {
+	display: flex;
+}
 
 
 
